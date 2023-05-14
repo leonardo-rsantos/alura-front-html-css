@@ -3,6 +3,7 @@ body {
   color: #eeeeee;
 }
 
-strong {
+.titulo-destaque {
+  font-weight: bold;
   color: #00adb5;
 }
