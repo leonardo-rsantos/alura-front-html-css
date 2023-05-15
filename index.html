@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header></header>
+    <header class="cabecalho">
+      <nav class="cabecalho__menu">
+        <a href="index.html" class="cabecalho__menu__link">Home</a>
+        <a href="about.html" class="cabecalho__menu__link">Sobre mim</a>
+      </nav>
+    </header>
     <main class="apresentacao">
       <section class="apresentacao__conteudo">
         <h1 class="apresentacao__conteudo__titulo">
@@ -23,20 +28,31 @@
           prática boas ideias. Vamos conversar?
         </p>
         <div class="apresentacao__links">
-          <a
-            class="apresentacao__links__link"
-            href="https://instagram.com/o.leoreis"
-            >Instagram</a
-          >
+          <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
           <a
             class="apresentacao__links__link"
             href="https://github.com/leonardo-rsantos"
-            >Github</a
+            target="_blank"
+            ><img src="images/github.png" />Github</a
+          >
+          <a
+            class="apresentacao__links__link"
+            href="https://www.linkedin.com/in/leeoreis/"
+            target="_blank"
+            ><img src="images/linkedin.png" />Linkedin</a
+          >
+          <a
+            class="apresentacao__links__link"
+            href="https://instagram.com/o.leoreis"
+            target="_blank"
+            ><img src="images/instagram.png" /> Instagram</a
           >
         </div>
       </section>
       <img src="images/person.png" alt="Developer Photo" />
     </main>
-    <footer></footer>
+    <footer class="rodape">
+      <p>Desenvolvido por Leonardo Reis | Curso Alura Front-end</p>
+    </footer>
   </body>
 </html>
