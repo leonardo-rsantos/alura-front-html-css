@@ -1,2 +1,6 @@
 # alura-front-html-css
-Estudos do curso Alura: "A partir do zero: HTML e CSS para projetos web"
+Projeto das aulas da formação Alura Front-end, abordando:
+
+HTML e CSS, aprofundando nas tags semânticas e variáveis no CSS.
+
+Demo: https://alura-front-html-css.vercel.app/
